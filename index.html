@@ -1,1 +1,96 @@
-<h1>Hello World!</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Greg H.</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #2d2d2d;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 0.5rem;
+        }
+
+        a {
+            color: #0077cc;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+
+        @media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Greg H.</h1>
+    <p>Software Developer • Problem Solver • Tech Enthusiast</p>
+</header>
+
+<div class="container">
+
+    <section>
+        <h2>📄 Resume</h2>
+        <p>
+            View or download my resume here: 
+            <a href="GregH_Resume.pdf" target="_blank">GregH_Resume.pdf</a>
+        </p>
+    </section>
+
+    <section>
+        <h2>💼 Professional Background</h2>
+        <div class="grid">
+            <div>
+                <p><strong>Languages:</strong> C#, SQL, JavaScript, HTML/CSS</p>
+                <p><strong>Frameworks:</strong> .NET, Blazor, WPF, WinForms</p>
+                <p><strong>Skills:</strong> MVVM, Dependency Injection, REST APIs, Git, Azure, Dapper, SSIS</p>
+            </div>
+            <div>
+                <p>I’m a seasoned C# developer with a strong background in building desktop and web applications. My experience spans enterprise data systems, UI/UX design for internal tools, and use-case-driven architecture.</p>
+                <p>I’m currently expanding into Blazor and modern cloud development, with a focus on clean, scalable architecture and intuitive user experiences.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>🌱 About Me</h2>
+        <p>
+            Outside of coding, I enjoy grilling, fitness training, experimenting with high-protein recipes, and working on side projects to expand my skills. I'm also passionate about organizing and refining workflows to make teams more effective.
+        </p>
+    </section>
+
+</div>
+
+</body>
+</html>
